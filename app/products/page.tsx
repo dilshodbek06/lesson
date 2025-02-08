@@ -33,7 +33,7 @@ const Page = async () => {
 
               <div className="flex items-center justify-between">
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
-                  ${product.price}
+                  UZS {product.price}
                 </span>
                 <button className="btn btn-dark">cart</button>
               </div>
