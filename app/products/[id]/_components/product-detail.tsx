@@ -3,8 +3,15 @@
 import Image from "next/image";
 import { useState } from "react";
 
+type Product = {
+  title: string;
+  description: string;
+  price: number;
+  images: string[];
+};
+
 interface ProductDetailProps {
-  item: unknown;
+  item: Product[];
 }
 
 const ProductDetail = ({ item }: ProductDetailProps) => {
